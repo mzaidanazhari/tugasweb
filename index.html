@@ -1,0 +1,826 @@
+<html>
+<title>TUGAS PEMROGRAMAN WEB-ZAIDAN</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+
+<body>
+<div class="w3-container w3-black" >
+ <img src="img1/background1.png" width=100% >
+</div>
+
+<div class="w3-bar w3-dark-grey">
+ <button class="w3-bar-item w3-button" onclick="pilihan('profil')">Profil</button>
+ <button class="w3-bar-item w3-button" onclick="pilihan('Motogp')">About</button>
+ <button class="w3-bar-item w3-button" onclick="pilihan('sejarah')">History</button>
+ <button class="w3-bar-item w3-button" onclick="pilihan('regulasi')">Regulation</button>
+ <button class="w3-bar-item w3-button" onclick="pilihan('spesifikasi')">Spec</button>
+
+ <div class="w3-dropdown-hover">
+ <button class="w3-button">Class</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card">
+      <button class="w3-bar-item w3-button" onclick="pilihan('mgp')">MotoGP</button>
+      <button class="w3-bar-item w3-button" onclick="pilihan('m2')">Moto2</button>
+      <button class="w3-bar-item w3-button" onclick="pilihan('m3')">Moto3</button>
+      <button class="w3-bar-item w3-button" onclick="pilihan('me')">MotoE</button>
+    </div>
+  </div>
+ 
+ <button class="w3-bar-item w3-button" onclick="pilihan('trek')">Track</button>
+ <button class="w3-bar-item w3-button" onclick="pilihan('rider')">Rider</button>
+ <button class="w3-bar-item w3-button" onclick="pilihan('tim')">Team</button>
+ <button class="w3-bar-item w3-button" onclick="pilihan('pabrikan')">Manufactrurer</button>
+ <button class="w3-bar-item w3-button" onclick="pilihan('legenda')">Legend</button>
+</div>
+
+<div id="profil" class="w3-container GP w3-animate-top w3-black w3-card-4" style="display:none">
+  <div class="w3-panel w3-red w3-round-xlarge w3-animate-zoom">
+  <center><h2>BIODATA</h2></center>
+  </div>
+  <div class="w3-panel w3-white w3-round-xlarge">
+    <img src="img1/zaidan.png" width=20% >
+    <ul type=disc class="w3-display-middle"> 
+      <font size=4>
+      <li>Nama                 : Muhammad zaidan Azhari</li>
+      <li>Nim                  : 10123136 </li>
+      <li>Kelas                : IF-4</li>
+      <li>Angkatan             : 2023</li>
+      <li>Universitas          : UNIKOM (Universitas Komputer Indonesia)</li>
+      <li>Tempat Tanggal Lahir : Bandung, 21 Agustus 2004</li>
+      <li>Hobby                : Olahraga</li>
+      <li>Alamat               : JL. H. Yasin </li>
+      <li>Email                : mzaidanazhari@gmail.com </li>
+      <li>Instagram            : @zaiazharr </li>
+      </font>
+    </ul>
+    <p>Assalamualaikum om swastiastu namo buddhaya salam kebajikan, Bandung merupakan kota
+       dimana saya di lahirkan. Tepat pada tanggal 21 Agustus 2004 Pukul 19:38 saya terlahir 
+       dimuka bumi ini dengan sambutan hangat oleh orang sekitar, pada waktu itu saya terlahir 
+       kembar dengan keadaan sehat, seiring berjalannya waktu detik demi detik, hari ke hari,
+       bulan ke bulan, sampai tahun ke tahun, tak terasa kini saya menginjak usia ke 19 Tahun.
+       <i><ins>Bandung 15/01/2024</ins><i></p>
+  </div>
+</div>
+
+<div id="Motogp" class="w3-container GP w3-animate-top w3-black w3-card-4" style="display:none">
+ <div class="w3-panel w3-red w3-round-xlarge w3-animate-top">
+ <center><h2>FIM MOTOGP WORLD CHAMPIONSHIP</h2></center>
+ </div>
+ <center>
+ <img src="img1/gp.jpg " class="w3-animate-fading" width=40% >
+ </center>
+ <blockquote>
+ <p>Grand Prix Sepeda Motor (disingkat sebagai MotoGP) adalah seri kejuaraan balap
+    motor yang diselenggarakan di sirkuit jalanan yang disetujui dan diatur oleh Fédération 
+    Internationale de Motocyclisme (FIM). Sejumlah ajang balap sepeda motor independen telah
+    digelar sejak awal abad ke-20 dan banyak ajang besar nasional mendapatkan nama Grand 
+    Prix. Pendirian Fédération Internationale de Motocyclisme sebagai induk organisasi balap
+    motor sedunia tahun 1949 memberikan kesempatan untuk mengkoordinasikan aturan dan regulasi 
+    sehingga ajang tersebut terpilih sebagai Kejuaraan Dunia resmi. Ini adalah kejuaraan dunia 
+    balap motor tertua sepanjang sejarah.</p>
+ <p>Sepeda motor Grand Prix dirancang khusus untuk balapan, tidak dijual ke masyarakat umum dan,
+    secara hukum, dilarang dikendarai di jalan umum. Hal ini berbeda dengan misalnya, Kejuaraan
+    Dunia Superbike dan Isle of Man TT yang menggunakan sepeda motor biasa yang dimodifikasi. 
+    Kelas tertingginya adalah MotoGP sejak 2002 kala era mesin empat tak mulai berkembang. 
+    Sebelumnya, kelas tertingginya adalah 500 cc, keduanya menjadi penerus sejarah sebagai 
+    Kejuaraan Dunia resmi, meski semua kelas memiliki status resmi</p>
+ <p>Saat ini Grand Prix Sepeda Motor terbagi menjadi empat kelas: MotoGP, Moto2, Moto3, dan MotoE.
+    Tiga yang pertama ini menggunakan mesin empat tak, sedangkan MotoE (baru mulai 2019) menggunakan 
+    sepeda motor listrik.</p>
+ <p>Dalam sejarah Grand Prix, juara tersuksesnya adalah Giacomo Agostini dengan 15 gelar dan 
+    kemenangan 122 balapan. Di seri tertingginya Agostini meraih delapan rekor gelar, menyusul 
+    pembalap aktif Valentino Rossi dengan tujuh gelar dan Marc Márquez dengan enam gelar. Per 2019,
+    Rossi meraih 89 kemenangan balapan di kelas tertingginya.</p>
+ </blockquote>
+</div>
+
+<div id="sejarah" class="w3-container GP w3-animate-top w3-black w3-card-4" style="display:none">
+  <div class="w3-panel w3-red w3-round-xlarge w3-animate-right" >
+  <center><h2>SEJARAH</h2></center>
+  </div>
+  <center>
+  <img src="img1/history.webp" width=40% >
+  </center>
+  <blockquote>
+  <h3 style=color:silver>1949 sampai 1970</h3>
+  <p>Kejuaraan dunia untuk balap motor pertama kali diselenggarakan oleh Fédération Internationale de 
+     Motocyclisme (FIM), pada tahun 1949. Pada saat itu secara tradisional telah diselenggarakan beberapa 
+     balapan di tiap event untuk berbagai kelas motor, berdasarkan kapasitas mesin, dan kelas untuk sidecars 
+     (motor bersespan). Kelas-kelas yang ada saat itu adalah 50 cc, 125 cc, 250 cc, 350 cc, dan 500 cc untuk 
+     motor single seater, serta 350 cc dan 500 cc untuk motor sidecars. Memasuki tahun 1950-an dan sepanjang 
+     1960-an, motor bermesin 4 tak mendominasi seluruh kelas. Pada akhir 1960-an, motor bermesin 2 tak mulai 
+     menguasai kelas-kelas kecil.</p>
+  <h3 style=color:silver>1970 sampai 2000</h3>
+  <p>Pada tahun 1970-an motor bermesin 2 tak benar-benar menyingkirkan mesin-mesin 4 tak. Pada periode ini 
+     beberapa motor seperti Kawasaki H1-R, MV Agusta 500 Three, memilih menggunakan mesin dua langkah tiga 
+     silinder. Dengan motor tiga silinder nya, MV Agusta sukses memborong juara dunia pembalap dalam rentang 
+     1966 - 1973. Tahun-tahun sebelumnya, MV Agusta juga sukses dengan motor empat silinder nya sejak 1956 
+     - 1965 melalui pembalapnya John Surtees, Gary Hocking dan Mike Hailwood. Pemilihan mesin tiga silinder 
+     biasanya dilatarbelakangi untuk mendapatkan bobot yang ringan sehingga sehingga mampu mengeksekusi 
+     tikungan lebih cepat dan memperoleh hasil kualifikasi yang lebih baik</p>
+  <p>Pada tahun 1979, Honda berusaha mengembalikan mesin 4 tak di kelas puncak dengan menurunkan motor NR500, 
+     namun proyek ini gagal, dan bahkan pada tahun 1983 Honda mampu meraih kemenangan dengan motor 500 cc 2 
+     tak miliknya. Pada tahun 1983, kelas 350 cc akhirnya dihapuskan. Kelas 50 cc kemudian digantikan oleh 
+     kelas 80 cc pada tahun 1984, tetapi kelas yang sering didominasi oleh pembalap dari Spanyol dan Italia 
+     ini akhirnya ditiadakan pada tahun 1990. Kelas sidecars juga ditiadakan dari kejuaraan dunia pada tahun 
+     1990-an, menyisakan kelas 125 cc, 250 cc, dan kelas 500 cc.</p>
+  <p>Di era 1997-an saat kebanyakan motor Grand Prix 500 menggunakan mesin empat silinder, KR3 Modenas tercatat 
+     sebagai satu-satunya tim sekaligus pabrikan yang masih menggunakan mesin tiga silinder. Sayang sampai 
+     dengan datangnya era 4-tak mesin tiga silinder KR3 tidak bisa berbuat banyak, karena kalah power dengan 
+     mesin empat silinder meskipun di sisi lain memperoleh benefit dari segi bobot.</p> 
+  <p>GP 500, kelas yang menjadi puncak balap motor Grand Prix, telah berubah secara dramatis pada tahun 2002. 
+     Dari pertengahan tahun 1970-an sampai 2001 kelas puncak dari balap GP ini dibatasi 4 silinder dan kapasitas 
+     mesin 500 cc, baik jenis mesin 4 tak ataupun 2 tak. Akibatnya, yang mampu bertahan adalah mesin 2 tak, yang 
+     notabene menghasilkan tenaga dan akselerasi yang lebih besar.</p>  
+  <h3 style=color:silver>2002</h3>
+  <p>Merupakan tahun transisi, periode terakhir mesin dua langkah diperlombakan dalam kompetisi kelas premier. 
+     Sepanjang tahun 2002 sampai 2006 untuk pertama kalinya pabrikan diizinkan untuk memperbesar kapasitas total 
+     mesin khusus untuk mesin 4 tak menjadi maksimum 990 cc, dan berubah menjadi 800 cc di musim 2007. Pabrikan 
+     juga diberi kebebasan untuk memilih jumlah silinder yang digunakan antara tiga sampai enam dengan batas berat 
+     tertentu. Dengan dibolehkannya motor 4 tak ber-cc besar tersebut, kelas GP 500 diubah namanya menjadi MotoGP. 
+     Seluruh tim pabrikan seperti Yamaha, Honda, dan Suzuki masing-masing memilih untuk berkompetisi menggunakan 
+     mesin empat langkah terbarunya. Praktis, hanya tim satelit saja yang masih berkompetisi menggunakan mesin 500 
+     cc dua langkah.</p>
+  <h3 style=color:silver>2003</h3>
+  <p>Seluruh tim di kelas premier motoGP tidak ada lagi yang menggunakan mesin dua langkah. Tersisa kelas 125 cc 
+     dan 250 cc saja yang masih belum diatur transisi nya menuju ke era empat langkah. Setelah tahun 2003 tidak 
+     ada lagi mesin 2 tak yang turun di kelas MotoGP. Untuk kelas 125 cc dan 250 cc secara khusus masih menggunakan 
+     mesin 2 tak.</p>
+  <h3 style=color:silver>2007 sampai saat ini</h3> 
+  <p>Perubahan yang terjadi sebatas perihal kubikasi maksimal yang diperkenankan yang diturunkan menjadi maksimum 
+     800 cc pada tahun 2007 dan berlangsung selama lima musim. Pada tahun 2012 hingga sekarang, batas kubikasi mesin 
+     ini kembali dinaikkan menjadi 1,000 cc dan ukuran diameter piston dibatasi maksimal 82mm saja. Balap untuk kelas 
+     MotoGP saat ini diselenggarakan sebanyak 17 seri di 15 negara yang berbeda (Spanyol menggelar 3 seri balapan). 
+     Balapan biasa digelar setiap akhir pekan dengan beberapa tahap. Hari Jum'at digelar latihan bebas dan latihan 
+     resmi pertama, kemudian hari Sabtu dilaksanakan latihan resmi kedua dan QTT, di mana para pembalap berusaha 
+     membuat catatan waktu terbaik untuk menentukan posisi start mereka. Balapan sendiri digelar pada hari Minggu, 
+     meskipun ada seri yang digelar hari Sabtu yaitu di Belanda dan Qatar. Grid (baris posisi start) terdiri dari 3 
+     pembalap perbaris dan biasanya setiap seri balap diikuti oleh sekitar 20 pembalap. Balapan dilaksanakan selama 
+     sekitar 45 menit dan pembalap berlomba sepanjang jumlah putaran yang ditentukan, tanpa masuk pit untuk mengganti 
+     ban atau mengisi bahan bakar. Balapan akan diulang jika terjadi kecelakaan fatal di awal balapan. Susunan grid 
+     tidak berubah sesuai hasil kualifikasi. Pembalap boleh masuk pit jika hanya untuk mengganti motor karena hujan 
+     saat balapan.</p> 
+   </blockquote>   
+</div>
+
+<div id="regulasi" class="w3-container GP w3-animate-top w3-black w3-card-4" style="display:none">
+ <div class="w3-panel w3-red w3-round-xlarge w3-animate-top">
+ <center><h2>SEJARAH REGULASI</h2></center>
+ </div>
+ <center>
+ <img src="img1/regulasi.jpg" class="w3-animate-zoom" width=30% >
+ </center>
+ <ul type=disc> 
+ <li>Pada tahun 2002, kelas 500 cc digantikan menjadi MotoGP, kapasitas motor yaitu 990 cc.</li> 
+ <li>Pada tahun 2005, sebuah peraturan baru untuk MotoGP telah diberlakukan yaitu flag-to-flag.
+     Sebelumnya, jika sebuah balapan dimulai dengan start dalam kondisi sirkuit kering dan hujan 
+     turun, pembalap terdepan dapat mengangkat tangan untuk menghentikan lomba, demikian juga dengan 
+     para ofisial mengibarkan bendera merah untuk menghentikan balapan, kemudian balapan dimulai lagi 
+     dengan menggunakan ban basah. Sekarang jika hujan turun saat balapan tidak ada lagi bendera merah,  
+     para pembalap langsung menuju pit untuk mengganti ban sesuai kebijakan tim.</li>
+ <li>Pada tahun 2007, kelas MotoGP diturunkan kapasitas mesinnya, menjadi 800 cc.</li> 
+ <li>Pada tahun 2010, kelas MotoGP diberlakukan pembatasan mesin 6 mesin untuk 1 musim.</li> 
+ <li>Pada tahun 2010, kelas 250 cc digantikan oleh kelas Moto2 dengan basis mesin Honda 
+     CBR600RR dan sasis prototipe.</li>
+ <li>Pada tahun 2012, kelas MotoGP dinaikkan kapasitas mesinnya, menjadi 1.000 cc.</li>
+ <li>Pada tahun 2012, kelas MotoGP diberlakukan regulasi CRT (Claiming Rule Team) 
+     yang memperbolehkan Tim (Kecuali Team Pabrikan) memakai mesin motor massal 1.000 
+     cc disasis prototipe.</li>
+ <li>Pada tahun 2012, kelas 125 cc digantikan oleh kelas Moto3 dengan mesin 250 cc.</li>
+ <li>Pada tahun 2014, Kelas CRT di MotoGP diganti menjadi Open Class dan diterapkan 
+     sistem kualifikasi Knockout.</li>
+ <li>Pada tahun 2016 pergantian penggunaan ban dari Bridgestone ke Michelin.</li>
+ <li>Pada tahun 2016 semua tim MotoGP mulai dari Honda, Yamaha, Ducati dan yg lainnya 
+     akan menggunakan 1 ECU seragam buatan Magneti Marelli oleh Dorna. Selain itu, 
+     perangkat keselamatan juga di terapkan dengan menambah Sensor Tekanan ban dan 
+     Aturan baru yakni penambahan Panel Stewards untuk membantu Race Direction.</li>
+ <li>Mulai tahun 2017 penggunaan winglet dilarang, menyusul rilis yang dikeluarkan 
+     oleh komisi grand prix pada tanggal 25 Juni 2016 atas pertimbangan keamanan.</li>
+ <li>Musim 2019 perubahan/bentuk aero-fairing hanya dibatasi menjadi 2 kali saja/2 
+     model aero-fairing.</li>
+ </ul>
+</div>
+
+<div id="spesifikasi" class="w3-container GP w3-animate-top w3-black w3-card-4" style="display:none">
+  <div class="w3-panel w3-red w3-round-xlarge w3-animate-opacity">
+  <center><h2>SPESIFIKASI MESIN</h2></center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><b>1. Konfigurasi mesin L 4 silinder digunakan oleh Ducati Desmosedici GP</b></h2>
+    <center><img src="img1/konfigurasiL4.png" width=40%></center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><b>2. Konfigurasi mesin V 4 silinder digunakan oleh Honda RC213V, Aprilia RG-GP, dan KTM RC16</b></h2>
+    <center><img src="img1/konfigurasiv4.png" width=40%></center>
+  </div>
+  <div class="w3-panel w3-lblack w3-round-xlarge">
+    <h2><b>3. Konfigurasi mesin segaris digunakan oleh Yamaha YZR-M1</b></h2>
+    <center><img src="img1/konfigurasiI4.png" width=40%></center>
+  </div>
+ </div>   
+
+<div id="trek" class="w3-container GP w3-animate-top w3-black w3-card-4" style="display:none">
+ <div class="w3-panel w3-red w3-round-xlarge w3-animate-left ">
+ <center><h2>SIRKUIT DAN KALENDER</h2></center>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>1. Lusail International Circuit</b></h2>
+   <img src="img2/losail.JPG" width=50% height=40%>
+   <p><blockquote> Internasional Losail (bahasa Inggris: Losail International Circuit)
+       (Arab: حلبة لوسيل الدولية) merupakan sebuah sirkuit balap yang terletak di luar 
+       Lusail di utara Doha, Qatar. Dibangun kurang lebih satu tahun dan menelan biaya 
+       sebesar $58.000.000, sirkuit ini dibuka dan menggelar balapan pertama Grand Prix 
+       sepeda motor musim 2004, yang dimenangkan oleh Sete Gibernau. Layout sirkuit ini 
+       terbentang kira-kira seluas 5,4 km yang dikelilingi oleh rumput buatan untuk 
+       mencegah pasir dari gurun sekitar bertiup ke sirkuit. Trek lurus utama memiliki 
+       panjnag lebih dari 1 km. Pada tahun 2008, Grand Prix Sepeda Motor Qatar merayakan 
+       Grand Prix malam hari untuk yang pertama kalinya dalam sejarah, menyusul pembangunan 
+       pencahayaan luar ruangan permanen. Pada tanggal 30 September 2021, Formula Satu 
+       secara resmi mengumumkan bahwa mereka akan menambahkan Sirkuit Internasional Losail 
+       ini untuk musim 2021. Mereka juga telah mengadakan kontrak selama 10 tahun terhitung 
+       mulai musim 2023 hingga musim 2032</blockquote></p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>2. Autodromo Internacional do Algarve</b></h2>
+   <img src="img2/portugal.JPG" width=50% height=40%>
+   <p><blockquote>Sirkuit Internasional Algarve (Portugal: Autódromo Internacional do Algarve), 
+      biasa disebut juga dengan Sirkuit Portimão, adalah sebuah sirkuit yang sepanjang 4.692 
+      kilometer (2.915 mi), dan terletak di Portimão, Portugal. Sirkuit yang pembangunannya 
+      menelan biaya sebesar €195.000.000 ini sudah termasuk trek karting, taman teknologi, 
+      hotel bintang lima, kompleks olahraga, dan apartemen. Sirkuit ini dirancang oleh Ricardo 
+      Pina, Arquitectos. Pembangunan sirkuit ini selesai di bulan Oktober 2008 dan dihomologasi 
+      oleh FIM pada tanggal 11 Oktober 2008, lalu oleh FIA dua hari kemudian. Total biaya 
+      mencapai €195 juta (sekitar $250 juta).</blockquote></p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>3. Termas de Rio Hondo</b></h2>
+   <img src="img2/argentina.JPG" width=50% height=40%>
+   <p>Autódromo Termas de Río Hondo merupakan sebuah sirkuit balap yang terletak di Termas de Río 
+    Hondo, Argentina. Sejatinya sirkuit ini siap dipakai untuk gelaran MotoGP pada musim 2013 
+    tetapi pemerintah Spanyol mengatakan tidak aman bagi kru Repsol untuk balapan di Argentina 
+    karena masalah keamanan. Sehingga pihak Dorna membatalkan gelaran Gran Premio de la Republica 
+    Argentina 2013 Argentina dipastikan akan menggelar ajang MotoGP mulai musim 2014 
+    (terakhir kali pada musim 1999) setelah ada penandatanganan kontrak antara Direktur Event Dorna, 
+    Javier Alonso; Menteri Pariwisata Argentina, Enrique Meyer; dan Gubernur Santiago del Estero 
+    Gerardo Zamora pada 4 Juli 2013.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>4.  Circuit of The Americas</b></h2>
+   <img src="img2/amerika.JPG" width=50% height=40%>
+   <p>Circuit of the Americas (COTA, sebelumnya bernama Sirkuit Internasional Austin) merupakan 
+    sebuah sirkuit balapan mobil dengan panjang 5,5 km (3,4 mil) yang terletak di negara bagian 
+    Texas, Amerika Serikat, tepatnya di kota Austin, dan merupakan sirkuit pertama di Amerika 
+    yang dirancang khusus untuk menggelar ajang Formula Satu. Selain menggelar balapan F1 yang 
+    bertajuk Grand Prix Amerika Serikat, sirkuit ini juga menggelar balapan Americas Rallycross, 
+    dan Grand Prix Sepeda Motor. Tadinya, sirkuit ini menggelar American Le Mans Series, V8 
+    Supercars, dan IMSA WeatherTech SportsCar Championship. Di tahun 2021 mendatang, NASCAR akan 
+    membalap di sirkuit ini.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>5.  Circuito de Jerez-Angel Nieto</b></h2>
+   <img src="img2/jerez.JPG" width=50% height=40%>
+   <p>Sirkuit Jerez merupakan sebuah sirkuit otomotif yang terletak di Jerez de la Frontera, 
+    Spanyol. Sirkuit ini memiliki panjang 4,428km, dan saat ini menjadi salah satu bagian dari 
+    kalender MotoGP. Sirkuit ini juga pernah menggelar balapan F1, dan yang paling terkenal 
+    adalah saat kasus kontroversi Michael Schumacher di GP Eropa 1997 yang menabrakan mobilnya 
+    pada Jacques Villeneuve. Sirkuit ini sendiri saat ini juga dipakai sebagai tempat tes resmi 
+    ketika musim F1 sedang libur. Pada 3 Mei 2018, sirkuit dinamai untuk menghormati mantan 
+    pembalap sepeda motor Ángel Nieto, yang meninggal pada 2017.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>6.  Le Mans</b></h2>
+   <img src="img2/france.JPG" width=50% height=40%>
+   <p>Circuit de la Sarthe atau dikenal juga dengan nama Sirkuit Le Mans, merupakan sebuah sirkuit 
+    yang terletak di yang terletak di dekat Le Mans, Prancis. Sirkuit ini terkenal sebagai salah 
+    satu sirkuit terpanjang di dunia dengan total panjang 13,629 km. Sirkuit ini merupakan salah 
+    satu sirkuit legendaris karena setiap tahunnya selalu diadakan balap ketahanan 24 Hours of Le 
+    Mans.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>7.  Circuit de Barcelona-Catalunya</b></h2>
+   <img src="img2/catalunya.JPG" width=50% height=40%>
+   <p>Circuit de Barcelona-Catalunya merupakan salah satu sirkuit balap yang terletak di Montmeló, 
+    Barcelona, Spanyol.Sirkuit ini dipakai untuk balapan Formula Satu, GP2, MotoGP, dan Spanish GT. 
+    Jumlah tikungan di sirkuit ini ada 13. Di MotoGP tahun 2006 Marco Melandri, Sete Gibernau, Loris 
+    Capirossi, Randy de Puniet, dan Daniel Pedrosa mengalami kecelakaan di tikungan pertama. Sirkuit 
+    ini memiliki panjang 4,627 km, dan memiliki kapasitas tempat duduk sebesar 140,700. Sirkuit ini 
+    adalah sirkuit bersertifikasi Grade 1 FIA.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>8.  Autodromo internazionale del Mugello</b></h2>
+   <img src="img2/mugello.JPG" width=50% height=40%>
+   <p>Sirkuit Internasional Mugello (atau bernama asli Autodromo Internazionale del Mugello) merupakan 
+    sebuah sirkuit balap yang terletak di Scarperia e San Piero, Florence, Toskana, Italia. Sirkuit ini 
+    dibangun pada tahun 1974, dan memiliki panjang 5.245 kilometer (3.259 mi), dan 15 belokan. Kapasitas 
+    tempat duduknya adalah 50,000 orang.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>9.  Sokol International Racetrack</b></h2>
+   <img src="img2/sokol.JPG" width=50% height=40%>
+   <p>Sokol International Racetrack (juga dikenal sebagai Sokol Circuit) - bahasa Kazakh: Сокол халықаралық 
+    ипподромы, bahasa Rusia: Сокольский международный ипподром, translit. Sokol'skiy mezhdunarodnyy ipodrom) 
+    adalah sirkuit balap motor 76 km (47 mi) barat laut Almaty, Kazakhstan. Sirkuit 4.495 km (2.793 mi) 
+    dirancang oleh Hermann Tilke dan dipasarkan sebagai trek FIA Grade 2</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>10.  TT Circuit Assen</b></h2>
+   <img src="img2/assen.JPG" width=50% height=40%>
+   <p>TT Circuit Assen merupakan sebuah sirkuit balap di Belanda yang terletak di dekat Assen. Sirkuit ini 
+    dibangun pada tahun 1955 dan digunakan untuk kejuaraan Superbike dan MotoGP. Sirkuit ini dibangun untuk 
+    tujuan TT Belanda tahun 1954, dengan peristiwa sebelumnya telah diadakan di jalan umum. Trek sempit, 
+    dengan perubahan yang cepat dalam arah, dan sepenuhnya dikelilingi oleh bank rumput dan podium, memberikan 
+    tampilan yang sangat baik bagi ratusan ribu penonton fanatik yang tertarik ke acara paling bergengsi di 
+    Belanda setiap tahun. Sirkuit ini memegang rekor sebagai satu-satunya sirkuit yang selalu menyelenggarakan 
+    acara Grand Prix Sepeda Motor setiap tahun sejak tahun 1949.[1] sirkuit ini dapat menampung 100.000 penonton, 
+    termasuk 60,000 tempat duduk. Sejak 1992, sirkuit ini juga menyelenggarakan Superbike World Championship.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>11.  Sachenring</b></h2>
+   <img src="img2/germany.JPG" width=50% height=40%>
+   <p>Balapan digelar untuk pertama kali pada 26 Mei 1927 di jalan umum sepanjang 8.7 km, menyusuri wilayah 
+    pedesaan dari Hohenstein-Ernstthal itu sendiri yang kala itu sering disebut "Sachsenring". Grand Prix sepeda 
+    motor seri Jerman Timur digelar dari tahun 1962 hingga 1971. Lap tercepat diraih oleh juara dunia 15 kali, 
+    Giacomo Agostini mengendarai MV Agusta dengan kecepatan rata-rata 180 km/jam. Setelah Dieter Braun yang 
+    berasal dari Jerman Barat menang dan dinyanyikan lagu kebangsaan Jerman Barat, peserta balap dibatasi hanya 
+    untuk pembalap dari Eropa Timur karena alasan politik.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>12.  Silverstone Circuit</b></h2>
+   <img src="img2/britain.JPG" width=50% height=40%>
+   <p>Sirkuit Silverstone merupakan sebuah sirkuit balap yang terletak di Silverstone, Inggris, dekat Pedesaan 
+    Northamptonshire. Sirkuit ini menjadi rumah Grand Prix Britania, yang diselenggarakan pertama kali pada tahun 
+    1948. Di Formula Satu, Michael Schumacher mengalami kecelakaan di sirkuit ini pada Juli 1999, dimana ia 
+    mengalami patah kaki. Sirkuit ini dibuka di tahun 1948 sebagai bekas lapangan terbang militer kerajaan 
+    Britania Raya. Sejak saat itu berbagai macam renovasi mulai dilakukan agar sirkuit tidak terlalu terlihat 
+    seperti lapangan terbang, dan renovasi terakhir dilakukan di musim 2010 seiring berbagai macam balapan yang 
+    singgah di sirkuit ini</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>13.  Red Bull Ring-Spelberg</b></h2>
+   <img src="img2/austria.JPG" width=50% height=40%>
+   <p>Red Bull Ring merupakan sirkuit balapan di Spielberg, Steiermark, Austria.Sirkuit ini dibangun dengan nama 
+    Österreichring dan menjadi tuan rumah Grand Prix Austria dari tahun 1970 sampai 1987. Selang beberapa tahun 
+    kemudian, sirkuit ini direnovasi, dipendekkan dan berganti nama menjadi A1-Ring yang kemudian menggelar balapan 
+    F1 dari tahun 1977 sampai 2003. Sejak 2011 sirkuit ini berganti nama lagi menjadi Red Bull Ring dengan 
+    kepemilikan sirkuit yang diambil alih oleh perusahaan minuman Red Bull. Tikungan pertama di sirkuit ini 
+    bernama "Niki Lauda Kurve", untuk menghormati Niki Lauda yang meninggal dunia di Zürich, Swiss pada tahun 2019.
+    Tikungan ketujuh di sirkuit ini adalah tikungan Rindt, dinamai setelah Jochen Rindt yang meninggal dunia akibat 
+    kecelakaan fatal pada perlombaan Grand Prix Italia 1970 di Autodromo Nazionale Monza.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>14.  Motorland Aragon</b></h2>
+   <img src="img2/aragon.JPG" width=50% height=40%>
+   <p>Grand Prix Sepeda Motor Aragon merupakan acara balap motor yang menjadi bagian dari F.I.M. Grand Prix 
+      Sepeda Motor. Seri ini tergolong baru karena baru masuk dalam kalender MotoGP musim 2010</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>15.  Misano world Circuit Marco Simoncelli</b></h2>
+   <img src="img2/misano.JPG" width=50% height=40%>
+   <p>Misano World Circuit Marco Simoncelli (sebelumnya dikenal dengan nama Misano World Circuit dan sebelum 2006 
+    dikenal dengan nama Circuito Internazionale Santa Monica), juga dikenal sebagai Sirkuit Marco Simoncelli, 
+    merupakan sebuah sirkuit balap di Italia yang terletak di dekat kota Misano Adriatico. Sirkuit ini memiliki 
+    panjang 4.064 km (2.525 mil), dan biasa dipakai sebagai tempat penyelenggaraan balapan MotoGP dan World 
+    Superbike. Untuk kalender roda empat sendiri, sirkuit ini biasa dipakai sebagai tempat balapan Formula 
+    Renault dan FIA Sportscars.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>16.  Buddh International Circuit</b></h2>
+   <img src="img2/budh.JPG" width=50% height=40%>
+   <p>Sirkuit Internasional Buddh (Hindi: बुद्ध अन्तर्राष्ट्रीय परिपथ) adalah sebuah sirkuit yang terletak di Greater Noida, 
+    sekitar 50 km dari New Delhi, India. Nama trek ini berasal dari Gautama Buddha, dan juga Distrik Gautam Buddha 
+    Nagar yang menjadi lokasi trek ini. Trek ini diresmikan pada tanggal 18 Oktober 2011.[3] Sirkuit ini terkenal 
+    karena menjadi tempat penyelenggaraan balapan Formula Satu pada bulan Oktober 2011 dengan tajuk Grand Prix 
+    India.[4] Namun, Grand Prix ini ditangguhkan untuk tahun 2014, dan kemudian dibatalkan karena perselisihan 
+    pajak dengan Pemerintah Uttar Pradesh selama pemerintahan Akhilesh Yadav</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>17.  Pertamina Mandalika Internatonal Circuit</b></h2>
+   <img src="img2/mandalika.JPG" width=50% height=40%>
+   <p>Sirkuit Internasional Pertamina Mandalika (secara resmi bernama Pertamina Mandalika International Circuit) 
+    adalah sebuah sirkuit balap yang terletak di Kawasan Ekonomi Khusus Mandalika (KEK Mandalika) di Lombok Tengah, 
+    Nusa Tenggara Barat. Sirkuit dengan panjang lintasan 4,31 km dan 17 tikungan ini memiliki kelas homologasi 
+    kelas A dari FIM. Selain digunakan sebagai tempat penyelenggaraan MotoGP, Sirkuit ini juga menjadi tuan 
+    rumah berbagai pagelaran lain seperti World Superbike, Kejurnas Mandalika Racing Series, Shell Eco-marathon, 
+    dan National Track Day. Mandalika pertama kali menggelar Grand Prix Sepeda Motor Indonesia pada Maret 2022 
+    setelah sukses menyelenggarakan Kejuaraan Dunia Superbike pertamanya pada bulan November 2021.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>18.  Mobility Resort Motegi</b></h2>
+   <img src="img2/jpn.JPG" width=50% height=40%>
+   <p>Mobility Resort Motegi, sebelumnya dikenal dengan nama Twin Ring Motegi, adalah Sirkuit motorsport yang 
+    terletak di kota Hiyama Motegi, Distrik Haga, Tochigi, Jepang. Sirkuit ini dibangun oleh Honda pada tahun 
+    1997 untuk membawa Indycar ke Jepang dan digunakan juga sebagai laboratorium bagi Honda. Pada 1 Maret 2022, 
+    nama sirkuit berubah dari sebelumnya Twin Ring Motegi menjadi Mobility Resort Motegi bersamaan dengan ulang 
+    tahun yang ke-25 untuk sirkuit ini.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>19.  Philip Island</b></h2>
+   <img src="img2/aus.JPG" width=50% height=40%>
+   <p>Sirkuit Grand Prix Phillip Island adalah sebuah sirkuit balapan yang terletak di Pulau Phillip, Australia. 
+    Sirkuit ini memiliki panjang 4,4 km dan telah dibuka sejak tahun 1928. Sirkuit ini telah sukses menggelar 
+    beberapa balapan diantaranya Grand Prix Australia, MotoGP, World Superbike dan beberapa balapan lokal 
+    lainnya.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>20.  Chang International Circuit</b></h2>
+   <img src="img2/chang.JPG" width=50% height=40%>
+   <p>Sirkuit Internasional Buriram atau Sirkuit Internasional Chang untuk alasan sponsor (bahasa Thai: ช้าง 
+    อินเตอร์เนชั่นแนล เซอร์กิต, bahasa Inggris: Chang International Circuit) merupakan sebuah sirkuit balap yang 
+    terletak di provinsi Buriram, Thailand atau sekitar 392 km dari Ibu kota Bangkok. Sirkuit yang dirancang 
+    oleh Hermann Tilke ini mulai dibangun pada Maret 2013 dan telah menelan biaya sebesar 2 miliar Baht (sekitar 
+    Rp 740 miliar). Sirkuit ini mulai dibuka pada 4 Oktober 2014 dan memiliki panjang lintasan 4.554 meter serta 
+    12 tikungan.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>21.  Petronas Sepang International Circuit</b></h2>
+   <img src="img2/sepang.JPG" width=50% height=40%>
+   <p>Sirkuit Internasional Sepang (Sepang International Circuit/SIC) (dalam Bahasa Melayu: Litar Antarabangsa 
+    Sepang), saat ini dikenal sebagai Sirkuit Internasional Petronas Sepang untuk alasan komersial, Merupakan 
+    sebuah sirkuit yang terletak di Sepang, Selangor, Malaysia. Jaraknya kira-kira 45 km (28 mi) dari Kuala 
+    Lumpur. dari tahun 1999 sampai dengan tahun 2017, sirkuit ini digunakan untuk Grand Prix Malaysia Formula 
+    Satu. Selain ajang F1, di sirkuit ini juga pernah digelar A1 Grand Prix, Grand Prix Sepeda Motor Malaysia, 
+    dan berbagai macam event olahraga otomotif yang lainnya.</p>
+ </div>
+ <div class="w3-panel w3-light-grey w3-round-xlarge">
+   <h2><b>22.  Circuit Ricardo Tormo</b></h2>
+   <img src="img2/valencia.JPG" width=50% height=40%>
+   <p>Circuit Ricardo Tormo merupakan sebuah sirkuit balap di Spanyol yang terletak di dekat Valencia. Sirkuit ini 
+    dibangun pada tahun 1999 dan mengadakan balapan pertama MotoGP dan Spanyol motor Championships pada tahun yang 
+    sama. Jalur Cheste memiliki beberapa layout, menjalankan anti-searah jarum jam dengan panjang yang bervariasi.
+    Circuit Ricardo Tormo memiliki trek yang terdiri dari lima 4 km sudut tangan kanan, delapan handers kiri dan 
+    trek lurus sejauh 650m. Meskipun melihat jalur yang dianggap cukup kecil, sirkuit ini memiliki kompleks pit 
+    berisi 48 garasi dan podium stadion dapat menampung hingga 150.000 penonton.</p>
+ </div>
+</div>
+
+<div id="rider" class="w3-container GP w3-animate-top w3-black w3-card-4" style="display:none">
+  <div class="w3-panel w3-red w3-round-xlarge w3-animate-right">
+  <center><h2>PEMBALAP</h2></center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#63</font><font color=red size=6>Pecco</font></h2>
+    <img src="img2/pecco.JPG" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#23</font><font color=red size=6>Bestia</font></h2>
+    <img src="img2/enea.JPG" width=20% >
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#36</font><font color=orange size=6>Mr Miraculous</font></h2>
+    <img src="img2/mir.JPG" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#10</font><font color=orange size=6>Marinovich</font></h2>
+    <img src="img2/marini.JPG" width=20% >  
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#33</font><font color=tomato size=6>Big Balls Brad Binder</font></h2>
+    <img src="img2/binder.JPG" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#43</font><font color=tomato size=6>The Thriller</font></h2>
+    <img src="img2/miller.JPG" width=20% >
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#41</font><font color=green size=6>II Capitano</font></h2>
+    <img src="img2/aleix.JPG" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#12</font><font color=green size=6>Top Gun</font></h2>
+    <img src="img2/vinales.JPG" width=20% > 
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#20</font><font color=blue size=6>El Diablo</font></h2>
+    <img src="img2/quartararo.JPG" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#42</font><font color=blue size=6>The Bakerry</font></h2>
+    <img src="img2/rins.JPG" width=20% >
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#89</font><font color=purple size=6>Martinator</font></h2>
+    <img src="img2/martin.JPG" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#21</font><font color=purple size=6>Morbido</font></h2>
+    <img src="img2/morbidelli.JPG" width=20% >
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#72</font><font color=yellow size=6>Bezz</font></h2>
+    <img src="img2/bez.JPG" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#49</font><font color=yellow size=6>Diggia</font></h2>
+    <img src="img2/diggia.JPG" width=20% >
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#73</font><font color=violet size=6>El Pistolas</font></h2>
+    <img src="img2/alex.JPG" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#93</font><font color=violet size=6>Baby Alien</font></h2>
+    <img src="img2/marc.JPG" width=20% >
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#37</font><font color=tomato size=6>Spaghetti</font></h2>
+    <img src="img2/augusto.JPG" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#31</font><font color=tomato size=6>Baby Shark</font></h2>
+    <img src="img2/acosta.jpg" width=20% >
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#88</font><font color=teal size=6>Falcao</font></h2>
+    <img src="img2/miguel.JPG" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#25</font><font color=teal size=6>RF</font></h2>
+    <img src="img2/raul.JPG" width=20% >
+  </div>  
+</div>
+
+<div id="tim" class="w3-container GP w3-animate-top w3-black w3-card-4" style="display:none">
+  <div class="w3-panel w3-red w3-round-xlarge w3-animate-right">
+  <center><h2>TIM</h2></center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#DUCATI</font><font color=red size=6>Ducati Lenovo Team</font></h2>
+    <img src="img2/ducati.JPG" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#DUCATI</font><font color=purple size=6>Prima Pramac Racing</font></h2>
+    <img src="img2/pramac.JPG" width=20% >
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#DUCATI</font><font color=yellow size=6>Pertamina Enduro VR46 MOTOGP Team</font></h2>
+    <img src="img2/pertamina.JPG" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#DUCATI</font><font color=purple size=6>Gresini Racing Team</font></h2>
+    <img src="img2/gresini.JPG" width=20% >
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#APRILIA</font><font color=green size=6>Aprilia Racing Team</font></h2>
+    <img src="img2/aprilia.jpg" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#APRILIA</font><font color=teal size=6>Trackhouse Racing</font></h2>
+    <img src="img2/trackhouse.JPG" width=20% >
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#HONDA</font><font color=orange size=6>Repsol Honda Team</font></h2>
+    <img src="img2/honda.JPG" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#HONDA</font><font size=6>Lcr Honda</font></h2>
+    <img src="img2/lcr.JPG" width=20% >
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#KTM</font><font color=tomato size=6>Red Bull KTM Factory Racing</font></h2>
+    <img src="img2/ktm.JPG" width=20% >
+    </center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font size=6>#KTM</font><font color=red size=6>Gas Gas Factory Racing Team </font></h2>
+    <img src="img2/gasgas.JPG" width=20% >
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font size=6>#YAMAHA</font><font color=blue size=6>Yamaha Monster Energy</font></h2>
+    <img src="img2/yamaha.jpg" width=20% >
+    </center>
+  </div>
+</div>
+
+<div id="pabrikan" class="w3-container GP w3-animate-top w3-black w3-card-4" style="display:none">
+  <div class="w3-panel w3-red w3-round-xlarge w3-animate-zoom">
+  <center><h2>PABRIKAN</h2></center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font color=red size=7><b>Ducati Lenovo Team</b></font></h2>
+    <img src="img3/desmo.webp" width=20% >
+    <blockquote>
+    <p><b>Ducati Desmoseidici</b> Sejarah Ducati secara klasik didasarkan pada mesin 90° V-twin (atau L-twin), menggunakan teknologi 
+      desmodromic valve. Awalnya, Ducati mempertimbangkan kemungkinan untuk menciptakan 'super-twin' MotoGP, 
+      mengambil keuntungan dari peraturan MotoGP yang memberikan pengurangan bobot mesin silinder kembar yang 
+      cukup besar dibandingkan dengan motor empat, lima atau enam silinder. Namun, analisis menunjukkan bahwa 
+      mesin dua silinder tidak akan mampu menghasilkan jumlah tenaga yang dibutuhkan, tanpa meningkatkan jumlah 
+      putaran secara berlebihan. Sebuah silinder kembar harus berputar pada lebih dari 17.000 rpm, tetapi ini 
+      akan membutuhkan stroke yang sangat pendek dan bore yang sangat besar, sebagai akibatnya menghasilkan 
+      kemungkinan masalah pembakaran. </p>
+    </blockquote>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+    <h2><font color=green size=7><b>Aprilia Racing</b></font></h2>
+    <img src="img3/rsgp.webp" width=20% >
+    </center>
+    <blockquote>
+    <p><b>Aprilia RS-GP</b> adalah nama seri sepeda motor Prototipe V4 empat tak yang dikembangkan oleh 
+      Aprilia untuk bersaing di MotoGP Kejuaraan Dunia, mulai dari musim 2015.Aprilia pertama kali masuk 
+      dalam Grand Prix pada era 80-an di kelas 125cc dan 250cc. 2 pembalap andalan mereka, Loris Reggiani 
+      dan Alessandro Gramigni adalah suksesor penting dalam kiprah Aprilia 
+      di ajang balap. Terlebih lagi kedua Rider ini yang berasal dari Italia, sehingga membentuk filosofi 
+      kesuksesan Aprilia, bahwa Aprilia adalah motor buatan Italia yang dikendarai oleh orang Italia.</p>
+      </blockquote>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font color=tomato size=7><b>Red Bull KTM Factory Racing</b></font></h2>
+    <img src="img3/rc16.webp" width=20% >
+    <blockquote>
+    <p><b>KTM RC-16</b> adalah prototipe balap grand prix sepeda motor yang dikembangkan untuk 
+      balapan di seri MotoGP oleh KTM, mulai dari musim 2017.Setelah memutuskan untuk mundur dari semua 
+      kategori pada awal 2010, KTM akhirnya kembali ke 
+      Motogp pada tahun 2012, pada kategori Moto3. KTM kembali dengan membawa motor baru, kali ini bernama 
+      RC250GP. Berbeda dengan FRR series yang bermesin dua tak, 250GP bermesin empat tak sesuai dengan 
+      regulasi Moto3. Dengan jantung pacu 250cc empat tak silinder jomblo (single silinder maksudnya), 
+      KTM sukses jadi salah satu pabrikan terkuat di Moto3. Tahun 2013 menjadi tahun paling sukses untuk 
+      KTM di Moto3, dimana pada saat itu KTM berhasil memenangkan semua balapan dan memperoleh point yang 
+      maksimal, yakni sebanyak 425 poin. Tahun 2013 KTM mengumpulkan 18 kemenangan dengan 7 kemenangan 
+      diraih oleh mendiang Louis Salom, 6 kemenangan diraih oleh Alex Rins, 3 kemenangan oleh Maverick 
+      Vinales dan 1 kemenangan di raih oleh Alex Marquez. KTM juga berhasil mengantarkan lima pembalap 
+      meraih gelar juara dunia di Moto3. Ada Sandro Cortese pada 2012, Maverick Vinales di 2013, Brad 
+      Binder di 2016, Albert Arenas di 2020 dan Pedro Acosta di 2021.</p>
+    </blockquote>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <center>
+      <h2><font color=orange size=7><b>Repsol Honda Team</b></font></h2>
+    <img src="img3/hrc.webp" width=20% >
+    </center>
+    <blockquote>
+    <p><b>Honda RC213v</b> adalah motor buatan Honda yang dirancang dan dikembangkan secara 
+      khusus untuk mengikuti ajang balap resmi kelas dunia, yaitu Moto Grand Prix atau sering disapa (Motogp). 
+      Penamaan motor RC213V sendiri memiliki sebuah arti, yaitu "RC": RC adalah (Race Competion) milik Honda dan 
+      singkatan dari Race Competion, yang berarti motor kompetisi balap."21": 21 Adalah sepeda motor balap buatan 
+      Honda pada abad ke-21."3": adalah generasi atau jenis ke 3 dari 2 motor balap sebelumnya."V": V adalah jenis 
+      konfigurasi mesin yang diterapkan di motor tersebut, yang persis berbentuk huruf V. Repsol Honda adalah 
+      salah satu tim balap sepeda motor yang berlaga di ajang MotoGP. Tim ini merupakan 
+      tim pabrikan dari Honda dan mulai memasuki ajang MotoGP tahun 1995. Sejak saat itu pabrikan asal Jepang 
+      ini langsung menjelma menjadi kekuatan menakutkan dan merupakan salah satu tim tersukses sepanjang sejarah 
+      MotoGP. </p>
+    </blockquote>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <h2><font color=blue size=7><b>Monster Energy Yamaha</b></font></h2>
+    <img src="img3/yzrm1.webp" width=20% >
+    <blockquote>
+    <p><b>Yamaha YZR-M1</b>   adalah motor 1000 cc yang dikembangkan oleh Yamaha untuk balapan dalam 
+      serial MotoGP series Motor ini merupakan penerus dari YZR500 500 cc. Sejak itu, YZR-M1 terus dikembangkan.
+      Motor ini pertama kali dipakai tahun 2002, di mana saat itu sudah bernama MotoGP dan melombakan motor 990cc.
+      Pada awalnya, karena stoknya terbatas, maka baru tim pabrikanlah yang mendapatkan motor pabrikan. Yamaha 
+      YZR-M1 saat itu digunakan untuk tim pabrikan Yamaha, Marlboro Yamaha untuk Max Biaggi dan Carlos Checa. 
+      Beberapa seri berikutnya, Tech 3 lewat Shinya Nakano dan Olivier Jacque dan Norick Abe untuk Yamaha D'Antin. 
+      Yamaha Monster Energy merupakan tim resmi pabrikan Yamaha di ajang MotoGP. Didirikan pada tahun 1999 dan 
+      bermarkas di Belanda, tetapi tahun 2002 direlokasi ke Italia. Walaupun baru berdiri sendiri sebagai tim 
+      pabrikan, tetapi tim Yamaha sudah lama mensupport banyak tim. Awalnya prestasi tim ini kurang baik sejak 
+      era balap 2 tak diganti menjadi MotoGP yang saat itu berkapasitas 990cc. Hingga akhirnya Valentino Rossi 
+      datang pada tahun 2004 dan membawa perubahan. Pada tahun tersebut Yamaha langsung menginjak podium juara 
+      pertama bersama Rossi. Rossi terus membawa kemenangan bagi Yamaha dengan menjadi juara dunia dari rentang
+      tahun 2004 hingga 2009. Kecuali pada tahun 2006 sebagai runner up dan 2007 di posisi ke 3. Pada tahun 2010, 
+      giliran rekan setimnya Jorge Lorenzo yang merupakan hasil pembibitan Yamaha menjadi juara dunia MotoGP. 
+      Lorenzo kemudian menjadi juara dunia MotoGP pada musim 2012 dan 2015, yang menjadi tahun terakhir pembalap 
+      Yamaha menjuarai MotoGP hingga saat ini. </p>
+    </blockquote>
+  </div>  
+</div>
+
+<div id="legenda" class="w3-container GP w3-animate-top w3-black w3-card-4" style="display:none">
+  <div class="w3-panel w3-red w3-round-xlarge w3-animate-zoom">
+  <center><h2>LEGENDA</h2></center>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <img src="img3/ga.JPG"  width=20% >
+    <img src="img3/gd.JPG"  width=20% >
+    <img src="img3/ha.JPG" width=20% >
+    <img src="img3/kr.JPG"  width=20%>
+  </div>
+  <div class="w3-panel w3-black w3-round-xlarge">
+    <img src="img3/md.JPG"  width=20% >
+    <img src="img3/mh.JPG"  width=20% >
+    <img src="img3/pr.JPG"  width=20% >
+    <img src="img3/vr.JPG"  width=20%>
+  </div>
+  
+  
+</div>
+
+<div id="mgp" class="w3-container GP w3-animate-top w3-black w3-card-4" style="display:none">
+  <div class="w3-panel w3-light-grey w3-round-xlarge w3-animate-zoom">
+  <center><h2>MotoGP</h2></center>
+  </div>
+  <center>
+  <img src="img1/GP.webp" width=30% >
+  </center>
+  <blockquote>
+  <p>Kejuaraan Dunia MotoGP a FIM MotoGP adalah kelas utama dari seri balapan Grand Prix Sepeda Motor. 
+     Dulunya kelas ini dikenal dengan nama kelas 500cc atau biasa disebut GP500 yang pertama kali digelar sejak 
+     musim 1949.</p>
+  <p>Kapasitas engine MotoGP menggunakan engine dengan kapasitas 1000cc dengan 4 silinder. Susunan 4 silinder 
+     ini ada yang jenis In-Line dan V4. Sedangkan chassis dan engine nya merupakan prototype sehingga tidak 
+     dikomersilkan atau ditemukan di pasaran. Tenaga yang dihasilkan pada engine MotoGP bisa mencapai 250 HP 
+     dan kecepatan maksimum >350 km/jam.  Berat minimum kendaraan adalah 157 kg (tidak termasuk berat pembalap).</p>
+  </blockquote>
+</div>
+
+<div id="m2" class="w3-container GP w3-animate-top w3-black w3-card-4" style="display:none">
+  <div class="w3-panel w3-light-grey w3-round-xlarge w3-animate-zoom">
+  <center><h2>Moto2</h2></center>
+  </div>
+  <center>
+  <img src="img1/moto2.jpg" width=30% >
+  </center>
+  <blockquote>
+  <p>Kejuaraan Dunia Moto2 merupakan sebuah seri atau kelas dari Grand Prix Sepeda Motor. Kelas Moto2 mulai 
+    diperlombakan di musim 2010 dengan adanya perubahan regulasi untuk kelas 250cc. Kelas ini merupakan kelas 
+    menengah dalam tangga kejuaraan GP Motor.</p>
+  <p>Kapasitas engine Moto2 adalah sebesar 765cc dengan 3 silinder. Chassis pada Moto2 merupakan prototype 
+    yang tidak dipasarkan, namun engine nya diproduksi secara resmi oleh Triumph. Tenaga yang dihasilkan pada 
+    engine Moto2 bisa mencapai 140 HP dan kecepatan maksimum >295 km/jam.  Berat minimum kendaraan adalah 217 
+    kg (termasuk berat pembalap)..</p>
+  </blockquote>
+</div>
+
+<div id="m3" class="w3-container GP w3-animate-top w3-black w3-card-4" style="display:none">
+  <div class="w3-panel w3-light-grey w3-round-xlarge w3-animate-zoom">
+  <center><h2>Moto3</h2></center>
+  </div>
+  <center>
+  <img src="img1/moto3.jfif" width=30% >
+  </center>
+  <blockquote>
+  <p>Kejuaraan Dunia Moto3 merupakan sebuah seri atau kelas dari Grand Prix Sepeda Motor. Kelas Moto3 mulai 
+    diperlombakan di musim 2012 dengan adanya perubahan regulasi untuk kelas 125cc. Kelas ini merupakan kelas 
+    paling dasar dalam tangga kejuaraan di ajang GP Motor sebelum menapak naik ke kelas Moto2 dan nantinya ke 
+    kelas MotoGP.</p>
+  <p>Kapasitas engine Moto3 adalah 250cc dan merupakan yang terkecil diajang World Grand Prix ini. Engine Moto3 
+    memiliki 1 silinder. Chassis dan engine nya merupakan prototype. Tenaga yang dihasilkan pada engine Moto3 
+    mencapai 60 HP dan kecepatan maksimum >245 km/jam. Berat minimum kendaraan adalah 152 kg (termasuk berat 
+    pembalap).</p>
+  </blockquote>
+</div>
+
+<div id="me" class="w3-container GP w3-animate-top w3-black w3-card-4" style="display:none">
+  <div class="w3-panel w3-light-grey w3-round-xlarge w3-animate-zoom">
+  <center><h2>MotoE</h2></center>
+  </div>
+  <center>
+  <img src="img1/motoE.webp" width=30% >
+  </center>
+  <blockquote>
+  <p>FIM Enel MotoE World Champhionship motor yang hanya menggunakan sepeda motor bertenaga listrik. Seri ini disetujui 
+    oleh FIM dan musim perdananya berlangsung pada tahun 2019 sebagai balap pendukung ajang MotoGP di lima sirkuit 
+    Eropa. Digelar sebagai World Cup mulai musim 2019 hingga 2022, MotoE secara resmi memperoleh status World 
+    Championship pada musim 2023.</p>
+  <p>Dari data yang dirilis di situs resmi MotoGP, motor MotoE punya spesifikasi yang cukup mumpuni. Sebagai sumber 
+    tenaga, motor tersebut memiliki baterai dengan kapasitas 20 KwH. Baterai tersebut, yang diletakkan di tengah 
+    body motor, mampu menyalurkan power 120Kw, atau sekitar 160 tenaga kuda.</p>
+  </blockquote>
+</div>
+
+</body>
+
+<script>
+
+ function pilihan(pilih)
+ {
+ var i;
+ var x = document.getElementsByClassName("GP");
+ for (i = 0; i < x.length; i++)
+ {
+ x[i].style.display = "none"; 
+ }
+ document.getElementById(pilih).style.display = "block"; 
+ }
+
+</script>
+</body>
+</html>
